@@ -9,7 +9,7 @@ install:
 	pip install -r requirements.txt
 
 dev:
-	fastapi dev main.py
+	fastapi dev src/
 
 run: 
-	fastapi run main.py
+	fastapi run src/
